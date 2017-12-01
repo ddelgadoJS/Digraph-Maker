@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QDialog" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>249</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QPushButton" name="testFile">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grafo con archivo precargado</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="manual">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grafo manual</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="modify">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modificar grafo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showModify">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mostrar grafo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="algorithms">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Algoritmos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Guardar grafo</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="load">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cargar grafo</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
